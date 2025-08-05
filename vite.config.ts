@@ -13,12 +13,14 @@ export default defineConfig({
       name: "recruit_app",
       filename: "remoteEntry.js",
       exposes: {
-        "./RecruitDashboard": "./src/RecruitDashboard.tsx",
+        "./RecruitRoutes": "./src/recruit/RecruitRoutes.tsx",
+        "./RecruitSidebarConfig": "./src/recruit/sidebar.config.ts",
       },
       // remotes: {
       //   host_app: "http://localhost:3000/remoteEntry.js",
       // },
-      shared: ["react"],
+      shared: ["react", "react-dom", "react-router-dom"]
+
     }),
   ],
   build: {

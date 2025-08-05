@@ -1,11 +1,10 @@
-import React from "react";
-
 const RecruitDashboard = () => {
   return (
     <div>
-      <h1>Recruit dahs</h1>
+      <h1>Recruit Dashboard</h1>
+      {/* Add your dashboard content here */}
     </div>
   );
-};
+}
 
 export default RecruitDashboard;

@@ -1,6 +1,8 @@
-import RecruitRoutes from "./admin/AdminRoutes";
+import { Suspense } from "react";
 import "./App.css";
-import Button from "@mui/material/Button";
+import { BrowserRouter as Router } from "react-router-dom";
+import RecruitRoutes from "./recruit/RecruitRoutes";
+
 
 function App() {
   return (

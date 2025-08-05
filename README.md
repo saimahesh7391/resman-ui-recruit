@@ -67,3 +67,35 @@ export default tseslint.config([
   },
 ])
 ```
+
+```
+resman-ui-recruit
+├─ eslint.config.js
+├─ index.html
+├─ package-lock.json
+├─ package.json
+├─ public
+│  └─ vite.svg
+├─ README.md
+├─ src
+│  ├─ App.css
+│  ├─ App.tsx
+│  ├─ assets
+│  │  └─ react.svg
+│  ├─ components
+│  │  └─ common
+│  │     ├─ LoadingScreen.tsx
+│  │     └─ NotFoundPage.tsx
+│  ├─ index.css
+│  ├─ main.tsx
+│  ├─ recruit
+│  │  ├─ RecruitDashboard.tsx
+│  │  ├─ RecruitRoutes.tsx
+│  │  └─ sidebar.config.ts
+│  └─ vite-env.d.ts
+├─ tsconfig.app.json
+├─ tsconfig.json
+├─ tsconfig.node.json
+└─ vite.config.ts
+
+```

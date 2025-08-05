@@ -1,5 +1,4 @@
-// resmanui-Recruit/src/Recruit/RecruitRoutes.tsx
-import React from "react";
+// resmanui-admin/src/admin/AdminRoutes.tsx
 import { Routes, Route } from "react-router-dom";
 import RecruitDashboard from "./pages/RecruitDashboard";
 

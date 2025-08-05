@@ -16,7 +16,7 @@ export default defineConfig({
         "./RecruitRoutes": "./src/recruit/RecruitRoutes.tsx",
         "./RecruitSidebarConfig": "./src/recruit/sidebar.config.ts",
       },
-      shared: ["react", "react-dom", "react-router-dom"],
+      shared: ["react", "react-dom", "react-router-dom", "@mui/material", "@mui/icons-material", "axios", "@tanstack/react-query"],
     }),
   ],
   build: {
